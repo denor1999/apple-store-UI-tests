@@ -1,6 +1,8 @@
 package appleTests;
 
+import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.WebDriverRunner;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
@@ -12,6 +14,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @DisplayName("Тесты навигации сайта Apple")
 public class NavigationTests extends TestBase{
+
+    @BeforeAll
+    static void setUp(){
+        Configuration.pageLoadStrategy = "eager";
+    }
 
     @CsvSource(value = {
             "Store, https://www.apple.com/store",
