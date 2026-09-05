@@ -25,7 +25,7 @@ public class CardsTests extends TestBase{
     })
     @ParameterizedTest(name = "Количество карточек {0} устройства не должно быть нулевым")
     @Tag("WEB")
-    @DisplayName("Провекра отображаемости карточек устройств")
+    @DisplayName("Проверка отображаемости карточек устройств")
     @Owner("denor1999")
     void countOfProductCardsShouldBeNonZero(String device) {
         step("Open store page", () -> {
