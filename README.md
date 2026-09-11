@@ -19,6 +19,7 @@
 
 ---
 
+<p align="center">
 <img src="images/icons/java.png" width="50" />
 <img src="images/icons/Intelij_Idea.png" width="50" />
 <img src="images/icons/github.png" width="50" />
@@ -31,6 +32,7 @@
 <img src="images/icons/Allure_TestOps.png" width="50" />
 <img src="images/icons/Telegram.png" width="50">
 <img src="images/icons/Jira.png" width="50" />
+</p>
 
 ## ✅ Проведенные автотесты
 
