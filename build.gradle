@@ -27,13 +27,14 @@ allure {
 dependencies {
     testImplementation platform('org.junit:junit-bom:6.0.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
-    testImplementation 'com.codeborne:selenide:7.0.2'
+    testImplementation 'com.codeborne:selenide:7.16.2'
     testImplementation "io.qameta.allure:allure-selenide:2.19.0"
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
 tasks.withType(Test) {
     useJUnitPlatform()
+    systemProperties(System.getProperties())
 
     testLogging {
         lifecycle {
