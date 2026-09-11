@@ -19,9 +19,9 @@
 
 ---
 
-<img src="images/icons/Java.png" width="50" />
-<img src="images/icons/InteliJ_Idea.png" width="50" />
-<img src="images/icons/GitHub.png" width="50" />
+<img src="images/icons/java.png" width="50" />
+<img src="images/icons/Intelij_Idea.png" width="50" />
+<img src="images/icons/github.png" width="50" />
 <img src="images/icons/JUnit5.png" width="50" />
 <img src="images/icons/Selenide.png" width="50" />
 <img src="images/icons/Selenoid.png" width="50" />
